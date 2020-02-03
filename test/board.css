@@ -1,0 +1,103 @@
+#board {
+    height: 540px;
+    width: 920px;
+    border: solid 1px #ddd;
+    margin: 0 auto;
+    background: rgb(185,6,6);
+    background: -webkit-linear-gradient(left, rgba(185,6,6,1) 0%, rgba(238,5,5,1) 40%, rgba(175,3,16,1) 60%, rgba(116,0,9,1) 81%);
+    background: -moz-linear-gradient(left, rgba(185,6,6,1) 0%, rgba(238,5,5,1) 40%, rgba(175,3,16,1) 60%, rgba(116,0,9,1) 81%);
+    background: -o-linear-gradient(left, rgba(185,6,6,1) 0%, rgba(238,5,5,1) 40%, rgba(175,3,16,1) 60%, rgba(116,0,9,1) 81%);
+    background: linear-gradient(to right, rgba(185,6,6,1) 0%, rgba(238,5,5,1) 40%, rgba(175,3,16,1) 60%, rgba(116,0,9,1) 81%);
+    border: solid 5px;
+    border-radius: 10px;
+    text-align:center;
+    min-height:430px;
+}
+
+
+
+#unoOnBoardSection {
+    display: flex;
+    justify-content: center;
+    background: rgb(24,22,22);
+    background: -webkit-linear-gradient(left, rgba(24,22,22,1) 0%, rgba(147,13,13,1) 41%, rgba(147,13,13,1) 57%, rgba(22,3,4,1) 100%);
+    background: -moz-linear-gradient(left, rgba(24,22,22,1) 0%, rgba(147,13,13,1) 41%, rgba(147,13,13,1) 57%, rgba(22,3,4,1) 100%);
+    background: -o-linear-gradient(left, rgba(24,22,22,1) 0%, rgba(147,13,13,1) 41%, rgba(147,13,13,1) 57%, rgba(22,3,4,1) 100%);
+    background: linear-gradient(to right, rgba(24,22,22,1) 0%, rgba(147,13,13,1) 41%, rgba(147,13,13,1) 57%, rgba(22,3,4,1) 100%);
+    font-family:'Arial Black', sans-serif;
+    line-height:1em;
+    color:#fff9d6;
+    font-weight:bold;
+    font-size:97px;
+    text-shadow:0px 0px 0 rgb(247,247,247),1px 1px 0 rgb(238,238,238),2px 2px 0 rgb(230,230,230),3px 3px 0 rgb(222,222,222),4px 4px 0 rgb(213,213,213),5px 5px 0 rgb(205,205,205), 6px 6px 0 rgb(197,197,197),7px 7px 6px rgba(0,0,0,1),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+
+}
+#deckAndPileSection {
+    max-height: 33.3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#deckSection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pileSection {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.player {
+    width: 40%;
+    border: solid 5px #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    margin:1%;
+    vertical-align: top;
+    background:#f5f5f5;
+}
+
+#player_1 .hand:hover  {
+    border: solid 5px #222;
+}
+
+#playerName {
+    font-size: 18px;
+}
+
+#playerSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.hand {
+    display: flex;
+    justify-content: space-around;
+    /*width: 65%;*/
+}
+
+#buttonsOnBoardSection {
+    display: flex;
+    justify-content: center;
+    border:none;
+    padding: 10px 30px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+#buttonsOnBoardSection div {
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+    margin-left: 12px;
+}
+
+#buttonsOnBoardSection div:hover {
+    background: yellow;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project: Uno!</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+    <audio id="splashMusic" src="assets/audio/retro_audo_ken.mp3" loop="loop" autoplay="autoplay"></audio>
+</head>
+<body>
+    <input type="text" value="peter" placeholder="name" id="playerName">
+    <input type="button" value="Set Name" id="mainbtn">
+    
+    
+    <section id="board">
+        <section id="unoOnBoardSection">
+            Project: UNO!
+        </section>
+        
+        <section id="deckSection">
+                <section id="deckSectionUnderCard">
+                    <section id="deckSectionCount"></section>
+                </section>
+                
+            </section>
+            
+            
+        <!--<section id="deckAndPileSection">-->
+            <!--<section id="deckSection">-->
+            <!--    <section id="deckSectionUnderCard"></section>-->
+            <!--    <section id="deckSectionCount"></section>-->
+            <!--</section>-->
+            <!--<section id="pileSection">-->
+            <!--    <section id="deckSectionUnderCard">-->
+            <!--        <section id="deckSectionCount"></section>-->
+            <!--    </section>-->
+                
+            <!--</section>-->
+        
+        <section id="playerSection">
+            <section class="player" id="player_1">p1</section>
+            <!--<section class="player" id="player_2">PLAYER 2</section>-->
+            <!--<section class="player" id="player_3">PLAYER 3</section>-->
+            <!--<section class="player" id="player_4">PLAYER 4</section>-->
+            <section></section>
+            <section></section>
+        </section>
+        <section id="buttonsOnBoardSection">
+            <input type="button" id="btnStart" class="btn" value="start">
+            <input type="button" class="btn" value="Draw Card">
+            <input type="button" class="btn" value="Stack">
+        </section>
+        <section id="playerCards"></section>
+    </section>
+    
+    <script type="text/javascript" src="src/main.js"></script>
+</body>
+</html>

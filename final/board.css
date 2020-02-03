@@ -1,0 +1,35 @@
+#board{
+    box-sizing: border-box;
+    /*margin-left: 50%:*/
+    /*margin-right:50%;*/
+    display: grid;
+    height:800px;
+    width:80%;
+    grid-template-rows:20% 60% 20%;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas: 
+    "leftCorner player3 rightCorner"
+    "player2 pile player4"
+    "lowerLeft user lowerRight";
+    border:5px solid red;
+}
+#user{
+    grid-area:user;
+    border:1px solid blue;
+}
+#player2{
+    grid-area:player2;
+    border:1px solid black;
+}
+#player3{
+    grid-area:player3;
+    border:1px solid green;
+}
+#player4{
+    grid-area:player4;
+    border:1px solid brown;
+}
+#pile{
+    grid-area:pile;
+    border:1px solid blue;
+}

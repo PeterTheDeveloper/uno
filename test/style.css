@@ -1,0 +1,86 @@
+
+
+html {
+    /*background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);*/
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*.splash {*/
+/*    height: 450px;*/
+/*    width: 690px;*/
+/*    border-radius: 18px;*/
+/*    margin: 9% 0px 0px 0px;*/
+/*    background-image: linear-gradient(to right, #3f0966 0%, #280d62 100%);*/
+
+/*    box-shadow: -1px 4px 10px -2px rgba(0,0,0,0.86);*/
+/*    -webkit-box-shadow: -1px 4px 10px -2px rgba(0,0,0,0.86);*/
+/*    border-radius: 2px;*/
+/*    transition: 0.5s;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+
+
+
+.Title {
+  margin: 0 0 7.2rem 0;
+  padding: 0;
+  color: #fff;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 200%;
+  text-align: center;
+  text-shadow: -0.1rem 0.1rem 0.2rem
+}
+
+.Input {
+  position: relative;
+}
+
+.Input-text {
+  display: block;
+  margin: 0;
+  width: 30%;
+  line-height: 200%;
+  border: none;
+  border-radius: 0.4rem;
+  -webkit-transition: box-shadow 300ms;
+  transition: box-shadow 300ms;
+}
+
+.Input-text::-webkit-input-placeholder {
+  color: #B0BEC5;
+}
+
+.Input-text::placeholder {
+  color: #B0BEC5;
+}
+
+.Input-text:focus {
+  outline: none;
+  box-shadow: 0.2rem 0.8rem 1.6rem #5e35b1;
+}
+
+.Input-label {
+  display: block;
+  position: absolute;
+  bottom: 50%;
+  left: 1rem;
+  color: #fff;
+  font-weight: inherit;
+  opacity: 0;
+}
+
+#submit {
+    height: 45px;
+    width: 95px;
+    background-color: #7681b9;
+    border: 0px transparent solid;
+    margin: 0 auto; 
+}
